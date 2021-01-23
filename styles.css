@@ -437,15 +437,52 @@ template {
   opacity: 0.8;
 }
 
-.Main-PopularArticleTitle {
+.Main-LastArticleTitle {
   font-family: Helvetica;
   font-size: 36px;
   color: Helvetica;
 }
 
-.Main-PupularArticleText {
+.Main-LastArticleText {
   font-size: 16px;
   opacity: 0.6;
+}
+
+.Main-PopularArticleTitle {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: #1F3F68;
+  margin-top: 1em;
+}
+
+.Author-Name {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #1F3F68;
+}
+
+.Author-Date {
+  font-size: 14px;
+  color: #1F3F68;
+  opacity: 0.4;
+}
+
+.Author-More {
+  font-family: Helvetica;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #356EAD;
+  opacity: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.ArticleImage {
+  padding: 10px;
 }
 
 * {

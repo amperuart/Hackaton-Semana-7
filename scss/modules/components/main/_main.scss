@@ -16,7 +16,7 @@
     }
 
     &-BannerTitle {
-        font-size: $xxl;
+        font-size: $xxxl;
         color: $First-Color;
     }
 
@@ -43,7 +43,6 @@
         font-size: $xs;
         color: #1F3F68;
         opacity: 0.6;
-
     }
 
     &-Popular {
@@ -58,16 +57,63 @@
 
     }
 
-    &-PopularArticleTitle {
+    &-LastArticleTitle {
         font-family: $Second-Font;
-        font-size: $xl;
+        font-size: $xxl;
         color: $Second-Font;
 
     }
 
-    &-PupularArticleText {
+    &-LastArticleText {
         font-size: $xs;
         opacity: 0.6;
 
     }
+
+    &-PopularArticleTitle {
+        font-family: $Second-Font;
+        font-size: $l;
+        color: $Second-Color;
+        margin-top: 1em;
+    }
+
+    &-PopularArticleText {
+
+    }
+}
+
+.Author {
+    
+    &-Name {
+        font-family: $Second-Font;
+        font-size: $xxs;
+        color: $Second-Color;
+    }
+
+    &-Date {
+        font-size: $xxs;
+        color: $Second-Color;
+        opacity: 0.4;
+
+    }
+
+    &-Icons {
+
+    }
+
+    &-More {
+        font-family: $Second-Font;
+        font-size: $xs;
+        text-transform: uppercase;
+        color: $Third-Color;
+        opacity: 0.8;
+
+        display: flex;
+        justify-content: right;
+    }
+
+}
+
+.ArticleImage {
+    padding: 10px;
 }
