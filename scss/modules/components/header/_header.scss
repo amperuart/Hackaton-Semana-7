@@ -1,4 +1,6 @@
 .Header {
+    margin-top: 1em;
+
     display: flex;
     justify-content: center;
 
@@ -7,7 +9,7 @@
     }
 
     &-Menu {
-        width: 700px;
+        width: 800px;
 
         //display: flex;
         //justify-content: space-between;

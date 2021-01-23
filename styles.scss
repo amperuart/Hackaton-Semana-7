@@ -3,8 +3,13 @@
 
 // COMPONENTES
 @import "./scss/modules/components/header/header";
+@import "./scss/modules/components/main/main";
 
 * {
     box-sizing: border-box;
     font-family: $First-Font;
+}
+
+.container {
+    margin: 0 auto;
 }

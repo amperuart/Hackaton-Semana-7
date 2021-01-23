@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackatón Semana 7</title>
-    <link rel="stylesheet" href="./scss/base/normalize.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 </head>
 <body>
 
-        <header class="Header">
-            <svg width="48" height="32" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="Header-Logo">
+    <div class="container">
+
+        <header class="row Header">
+            <svg width="48" height="32" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="col-md-4 Header-Logo">
                 <circle cx="16" cy="16" r="16" fill="#316099"/>
                 <circle cx="32" cy="16" r="15" fill="white" stroke="#316099" stroke-width="2"/>
                 <path d="M38.3 23L33.38 9H29.96L25.06 23H28.04L28.88 20.48H34.46L35.3 23H38.3ZM31.68 12.18L33.6 17.9H29.76L31.68 12.18Z" fill="#316099"/>
                 </svg>
-            <nav class="Header-Menu">
+            <nav class=col-md-8 Header-Menu">
                 <ul class="Header-ListItem">
                     <li class="Header-Item">
                         <a href="#" class="Header-Link Header--Active">Home</a>
@@ -30,6 +32,39 @@
                 </ul>
             </nav>
         </header>
+
+        <main class="Main">
+            <section class="row Main-Banner">
+                <h1 class="Main-BannerTitle">Blog Afrianska</h1>
+                <p class="Main-BannerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </section>
+            <section class="row Main-Searchbar">
+                <img src="./images/icon-search.png" alt="icon-search" class="Main-SearchbarIcon">
+                <p class="Main-SearchbarText">Search Article</p>
+            </section>
+            <section class="row Main-Popular">
+                <p class="Main-PopularTitle Font-Bold">Popular</p>
+                <article class="row">
+                    <div class="col-md-6">
+                        <h2 class="Main-PopularArticleTitle Font-Bold">Feugiat sodales at nullam tellus.</h2>
+                        <p class="Main-PopularArticleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d%o eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="PopularArticleAuthor">
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="" alt="Article Photo">
+                    </div>
+                </article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>
 </html>

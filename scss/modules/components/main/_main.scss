@@ -1,0 +1,73 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+
+    &-Banner {
+        height: 250px;
+        left: 0px;
+        top: 130px;
+        margin: 1em;
+
+        background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &-BannerTitle {
+        font-size: $xxl;
+        color: $First-Color;
+    }
+
+    &-BannerText {
+        font-size: $m;
+        color: $First-Color;
+    }
+
+    &-Searchbar {
+        background: #F4F4F4;
+        border-radius: 10px;
+
+        display: flex;
+        align-content: center;
+
+        margin: 1em;
+    }
+
+    &-SearchbarIcon {
+
+    }
+
+    &-SearchbarText {
+        font-size: $xs;
+        color: #1F3F68;
+        opacity: 0.6;
+
+    }
+
+    &-Popular {
+
+    }
+
+    &-PopularTitle {
+        font-family: $Second-Font;
+        font-size: $m;
+        color: $Third-Color;
+        opacity: 0.8;
+
+    }
+
+    &-PopularArticleTitle {
+        font-family: $Second-Font;
+        font-size: $xl;
+        color: $Second-Font;
+
+    }
+
+    &-PupularArticleText {
+        font-size: $xs;
+        opacity: 0.6;
+
+    }
+}
