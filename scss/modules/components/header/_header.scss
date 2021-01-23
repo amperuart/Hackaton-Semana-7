@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    justify-content: center;
+
+    &-Logo {
+        
+    }
+
+    &-Menu {
+        width: 700px;
+
+        //display: flex;
+        //justify-content: space-between;
+    }
+
+    &-ListItem {
+        list-style: none;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-Item {
+        font-size: $m;
+    }
+
+    &-Link {
+        text-decoration: none;
+    }
+
+}
+

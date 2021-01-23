@@ -1,0 +1,10 @@
+@import "./scss/base/normalize.scss";
+@import "./scss/base/variables";
+
+// COMPONENTES
+@import "./scss/modules/components/header/header";
+
+* {
+    box-sizing: border-box;
+    font-family: $First-Font;
+}
